@@ -20,6 +20,9 @@ This is the webscraper. It will search for all Medical Marijuana Treatment Cente
 ### geolocate_and_competitor_count.ipynb
 This file will automatically run the webscraper and import all data gathered. It then uses the Geoapify API to find and save the coordinates for each listed dispensary. Using this information, it then calculates the distance between each FLUENT store and all other potential competitors. If any other store is within a given radius, it will be saved in the list of competitors.
 
+### database_erd.sql
+This file sets up the SQL schema.
+
 ## Dependencies
 This project is ran through python and relies on several libraries:
 - Splinter
